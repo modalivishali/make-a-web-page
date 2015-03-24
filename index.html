@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Captain Anonymous</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <head>
+        <title> sai's Project-1</title>
+        <link rel="stylesheet" href="sai_style.css">
+    </head>
+    <body>
+        <div class= "I">
+            <h1> Index </h1>
+            <ol>
+                <li>
+                    <a href="#lesson-1">  The Basics of the Web and HTML. </a> 
+                    <ul>
+                        <li> <a href="#lesson-1-1"> The Web  </a> </li>
+                        <li> <a href="#lesson-1-2"> HTML </a> </li>
+                        <li>
+                        <ul>
+                            <li> <a href="#lesson-1-2-1">  HTML Markup </a> </li>
+                            <li> <a href="#lesson-1-2-2">  HTML Attributes </a> </li>
+                            <li> <a href="#lesson-1-2-3">  Inline (vs) Block Element </a> </li>
+                            <li> <a href="#lesson-1-2-4">  Whitespace </a> </li>
+                        </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#lesson-2">  Creating a Structured Document with HTML. </a>
+                    <ul>
+                        <li> <a href="#lesson-2-1"> Developer Tools </a> </li>
+                        <li> <a href="#lesson-2-2"> Necessary components of the Web. </a> </li>
+                        <li> <a href="#lesson-2-3"> Tree-like Structure. </a> </li>
+                        <li> <a href="#lesson-2-4"> Boxes and grids. </a> </li>
+                        <li> <a href="#lesson-2-5"> Tools programmers use to write a code </a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#lesson-3"> Adding CSS Style to HTML Structure.</a> 
+                    <ul>
+                        <li> <a href="#lesson-3-1"> CSS </a> </li>
+                        <li> <a href="#lesson-3-2"> Avoiding Repetition. </a> </li>
+                    </ul>
+                </li>
+                <li> <a href="#lesson-4"> Summary </a> </li>
+            </ol>
+        </div>
+        <h1> Important Concepts </h1>
+        <div class="lesson">
+            <h2 id="lesson-1"> The Basics of the Web and HTML </h2>
+            <div class="concept" id="lesson-1-1">
+                <div class="concept-title"> The Web </div>
+                <div class="concept-description">
+                    <p>  
+                        The Web was invented around 1990's and  approximately has 30 billion pages today. Whether it is a  Document or an image or a  video on the web they are linked or glued together through <em> HTML </em> .The Web is a collection of many HTML documents.When a person uses the internet through his <em> browser </em> , a request is placed to the server through <em> HTTP (Hypertext Transfer Protocol) </em> . Then the Server finds that particular HTML document and sends it to the user through the same channel. Here is a <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48329854/m-48480496"> video </a>  that explains the concept more clearly. 
+                    </p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-1-2">
+                <div class="concept-title"> HTML </div>
+                <div class="concept-description">
+                    <p> 
+                        HTML stands for <em> Hyper text Markup Language</em> . HTML is made up of text content  (what you see ),  markup  (what it looks like), links to other pages and reference to other documents (like videos or images ). 
+                    </p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-1-2-1">
+                <div class="concept-title"> HTML Markup </div>
+                <div class="concept-description">
+                    <p>  HTML Markups are set of commands inserted in a file for a particular display on the browser. They are made up of elements and tags. An example of basic tag is explained in this particular <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48011976/m-48703273"> video</a> . Tags are single commands placed between brackets whereas elements are components of HTML document. This <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48723444"> video </a> explains it in detail. </p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-1-2-2">
+                <div class="concept-title"> HTML Attributes </div>
+                <div class="concept-description">
+                    <p>  When a user while writing a HTML Document wants to refer a particular link on the web in this particular document, he uses the HTML attributes for the tag which in this case is an anchor tag. A clear example is given in this <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48508417/m-48723411"> video </a></p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-1-2-3">
+                <div class="concept-title"> Inline (vs) Block Element </div>
+                <div class="concept-description">
+                    <p>  Both these elements are used to organise the content. But there is a difference in the usage. Inline elements can display the organised content and span the space of the content. Whereas block elements place an invisible block around the content allowing it to be displayed as a new line. Unlike inline elements, block elements occupy the width of the parent if no width is specified. Here is a <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48723438"> video</a>  thats explains this concept. 
+                    </p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-1-2-4">
+                <div class="concept-title">Whitespace
+                </div>
+                <div class="concept-description">
+                    <p>   While creating HTML document in order to  add spaces  between the lines or to create a new paragraph, there must be a specific command in the text. otherwise, all the spaces given through tab are deleted while displaying the content. The additional space is called the whitespace  
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="lesson">
+            <h2 id="lesson-2"> Creating a Structured Document with HTML </h2>
+            <div class="concept" id="lesson-2-1">
+                <div class="concept-title"> Developer Tools 
+                </div>
+                <div class="concept-description">
+                    <p> A developer tool enables a developer to view the structure of the page as interpreted by browser. While coding if there are any errors or any visual changes that are required those can be identified through developer tools. By using inspect element we can look into the details of an element.
+                    </p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-2-2">
+                <div class="concept-title"> Necessary Components of the Web 
+                </div>
+                <div class="concept-description">
+                    <p> HTML, CSS and JavaScript are the important components of the web. HTML is the structure of the webpage,CSS controls the style of the page. whereas Javascript is a scripting language which allows to manupalate the DOM. DOM represents tree like structure of a page. These three components together form the Web page.
+                    </p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-2-3">
+                <div class="concept-title"> Tree-like structure 
+                </div>
+                <div class="concept-description">
+                    <p>  Elements can have other elements inside them which forms a structure similar to the family tree structure and hence the name. In a browser this structure comes up as a series of boxes inside other boxes and so on. 
+                    </p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-2-4">
+                <div class="concept-title"> Boxes and Grid 
+                </div>
+                <div class="concept-description">
+                    <p> Everything on the webpage is made up of grids or boxes. Even if the images are of irregular shapes CSS styles it in a rectangular box. Boxes are placed around every single element that is to be displayed on the page.
+                    </p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-2-5">
+                <div class="concept-title"> Tools programmer's use to write a code </div>
+                <div class="concept-description">
+                    <p> Programmers use special text editing program like  <em> <b> sublime text</b> </em> to code HTML document. A text editor is a program that helps to type the text in a particular format that computer understands. later, that editorial is converted in a document that other people read. </p>
+                </div>
+            </div>
+        </div>
+        <div class="lesson">
+            <h2 id="lesson-3"> Adding CSS Style to HTML Structure </h2>
+            <div class="concept" id="lesson-3-1">
+                <div class="concept-title"> CSS
+                </div>
+                <div class="concept-description">
+                    <p> CSS is <em> <q> Cascading Style Sheets </q> </em>. It also can be interpreted as a search and replace tool. Idetify a class/tag of the element you want to find, and than what you want to do with it (or) add property values to replace it with different ones. CSS is a code written to control the <q> style </q> of a page.
+                    </p>
+                </div>
+            </div>
+            <div class="concept" id="lesson-3-2">
+                <div class="concept-title"> Avoiding Repetition 
+                </div>
+                <div class="concept-description">
+                    <p> While writing a Code it is very essential to avoid repetitions otherwise, programmers have to do the same thing again and again. Doing it repetitie times can lead to errors. Some errors are so small that it can become very difficult to locate them. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="lesson">
+            <h2 id="lesson-4"> Summary </h2>
+            <div class="concept" id="lesson-4-1">
+                <div class="concept-description">
+                    <p>
+                    The process is simply divided into three parts <u> <q> <em> Code </em></q></u> ,  <u> <q> <em> Test </em></q></u> and <u> <q> <em> refine </em></q></u>. First programmers will write a code, than test it and finally if required make any changes. There are a few steps involved. <br/>
+                        <b> <em> <u> steps: </u> </em> </b>
+                    <ol>
+                        <li> Get the structure of the page correct. This is done by boxifying the elements. Everything on the page is put in boxes. </li>
+                        <li> Next, Move on to the tags and the class. If required add headings, text and other tags. Make sure opening tags have closing tags. </li>
+                        <li> Position the boxes on the grid correctly. Apply styles. </li>
+                        <li> Test the code regularly and if required make correction. Repeat the above steps until desired display is available </li>
+                    </ol>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</body>
+
+</html>
